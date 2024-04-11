@@ -41,7 +41,7 @@ button:hover {
 .gif-container {
   position: absolute;
   bottom: 10px;
-  left: 800px;
+  left: 1000px;
   right: 20px;
   z-index: 3;
 }
