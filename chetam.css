@@ -5,14 +5,12 @@ body {
   min-height: 200vh;
 }
 
-
-
 .background {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100;
-  height: 100;
+  width: 100%;
+  height: 100%; /* Устанавливаем высоту на весь экран */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -20,9 +18,16 @@ body {
 
 .background img {
   width: 100%;
-  height: 125%;
-  object-fit: cover;
+  height: 100%;
+  object-fit: cover; /* Заполняем всю площадь фотографией, сохраняя пропорции */
 }
+
+@media screen and (max-width: 768px) {
+  .background {
+    height: auto; /* Меняем высоту на авто, чтобы фон мог прокручиваться */
+  }
+}
+
 
 .invitation-container {
   font-size: 20px;
