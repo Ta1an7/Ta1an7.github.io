@@ -25,7 +25,7 @@ body {
 .invitation-container {
   position: relative;
   z-index: 2;
-  max-width: 650px;
+  max-width: 750px;
   margin: 100px auto;
   padding: 20px;
   background-color: #fff;
@@ -60,7 +60,7 @@ button:hover {
   position: absolute;
   bottom: 10px;
   left: 30px;
-  width: 100px; /* Изменено на фиксированную ширину */
-  height: 100px; /* Изменено на фиксированную высоту */
+  width: 75px; /* Изменено на фиксированную ширину */
+  height: 75px; /* Изменено на фиксированную высоту */
   z-index: 3;
 }
