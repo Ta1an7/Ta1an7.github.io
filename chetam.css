@@ -39,8 +39,8 @@ body {
   font-family: 'Caveat', cursive;
   margin: 0;
   padding: 0;
-  height: 100vh; /* Задает высоту равной высоте окна браузера */
-  overflow: hidden; /* Скрывает скролл */
+  height: 75vh; /* Задает высоту равной высоте окна браузера */
+ 
 }
 
 /* Остальной CSS код */
