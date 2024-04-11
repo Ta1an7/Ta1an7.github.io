@@ -1,0 +1,47 @@
+body {
+  font-family: 'Caveat', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+.invitation-container {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+  margin: 100px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.response-buttons {
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.hidden {
+  display: none;
+}
+
+.gif-container {
+  position: absolute;
+  bottom: 10px;
+  left: 500px;
+  right: 20px;
+  z-index: 3;
+}
