@@ -5,6 +5,10 @@ body {
   min-height: 200vh;
 }
 
+body {
+  zoom: 1.5; /* Устанавливает масштаб страницы на 150% */
+}
+
 .background {
   position: fixed;
   top: 0;
