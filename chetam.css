@@ -9,8 +9,8 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 2000px;
-  height: 2500px;
+  width: 100;
+  height: 100;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -23,10 +23,10 @@ body {
 }
 
 .invitation-container {
-  font-size: 30px;
+  font-size: 20px;
   position: relative;
   z-index: 2;
-  max-width: 750px;
+  max-width: 600px;
   margin: 100px auto;
   padding: 20px;
   background-color: #ffffff;
@@ -56,7 +56,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
-  font-size: 30px;
+  font-size: 20px;
   transition: all 0.3s ease;
 }
 
