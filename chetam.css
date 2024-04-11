@@ -59,7 +59,7 @@ button:hover {
 .gif-container {
   position: absolute;
   bottom: 10px;
-  left: 50px;
+  left: 30px;
   width: 100px; /* Изменено на фиксированную ширину */
   height: 100px; /* Изменено на фиксированную высоту */
   z-index: 3;
