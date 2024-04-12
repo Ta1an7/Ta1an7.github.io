@@ -22,8 +22,8 @@ body {
     url('3.PNG'), 
     url('4.PNG'), 
     url('9.PNG');
-  background-size: 33.3333% 33.3333%; /* устанавливаем размер изображений */
-  background-repeat: repeat-y; /* повторяем изображения только по вертикали */
+ background-size: 33.3333% 100%; /* ширина 33.3333% для каждого изображения, высота 100% для повторения по вертикали */
+  background-repeat: repeat-y; /* повторять изображения только по вертикали */
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
