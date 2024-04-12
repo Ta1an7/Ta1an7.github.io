@@ -87,9 +87,9 @@ button:hover {
 
 .gif-container {
   position: absolute;
-  bottom: 10px;
-  left: 50px;
-  width: 75px; /* Изменено на фиксированную ширину */
-  height: 75px; /* Изменено на фиксированную высоту */
+  bottom: 30px;
+  left: 20px;
+  width: 50px; /* Изменено на фиксированную ширину */
+  height: 50px; /* Изменено на фиксированную высоту */
   z-index: 3;
 }
