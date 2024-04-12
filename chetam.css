@@ -19,9 +19,9 @@ body {
   width: 100%;
   height: 100%;
   background-image: 
-    url('images/1.PNG'), 
-    url('images/2.PNG'), 
-    url('images/3.PNG');
+    url('3.PNG'), 
+    url('4.PNG'), 
+    url('9.PNG');
   background-size: 33.3333% 33.3333%; /* устанавливаем размер изображений */
   background-repeat: repeat-y; /* повторяем изображения только по вертикали */
   display: grid;
