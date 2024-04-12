@@ -1,172 +1,37 @@
-body {
-  font-family: 'Caveat', cursive;
-  margin: 0;
-  padding: 0;
-  min-height: 200vh;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Приглашение на свидание</title>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="chetam.css">
+</head>
+<body>
+<div class="background">
+  <img src="3.PNG" alt="Фото 1">
+  <img src="4.PNG" alt="Фото 2">
+  <img src="9.PNG" alt="Фото 3">
+</div>
 
-body {
-  font-family: 'Caveat', cursive;
-  margin: 0;
-  padding: 0;
-  min-height: 200vh;
-}
+<div class="invitation-container">
+  <h1>Дорогая Жаннур!,</h1>
+  <p>Я хочу провести время с тобой и сделать этот вечер особенным.</p>
+  <p>А после тебя ждет от меня подарочек</p>
+  <p>Дата встречи: 15 апреля</p>
+  <p>Место: Dostyk plaza </p>
+  <p>С любовью, твой дурачок <3 </p>
+  <div class="response-buttons">
+    <button id="yesButton">Да</button>
+    <button id="noButton">Нет</button>
+  </div>
+  <div class="gif-container" id="gifContainer">
+    <img src="cutegif.gif" alt="Миленькая гифка" width="50" height="50">
+  </div>
+</div>
 
-.background {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: 
-    url('3.PNG'), 
-    url('4.PNG'), 
-    url('9.PNG');
- background-size: 33.3333% 100%; /* ширина 33.3333% для каждого изображения, высота 100% для повторения по вертикали */
-  background-repeat: repeat-y; /* повторять изображения только по вертикали */
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-}
+<div id="notification" class="hidden"></div>
 
-
-.background img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* Заполняем всю площадь фотографией, сохраняя пропорции */
-}
-
-@media screen and (max-width: 768px) {
-  .background {
-    height: auto; /* Меняем высоту на авто, чтобы фон мог прокручиваться */
-  }
-}
-
-
-.invitation-container {
-  font-size: 20px;
-  position: relative;
-  z-index: 2;
-  max-width: 500px;
-  margin: 100px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-/* Ваш существующий CSS код */
-
-
-
-
-body {
-  font-family: 'Caveat', cursive;
-  margin: 0;
-  padding: 0;
-  height: 75vh; /* Задает высоту равной высоте окна браузера */
- 
-}
-
-/* Остальной CSS код */
-
-.response-buttons {
-  margin-top: 20px;
-}
-
-
-button {
-  padding: 10px 20px;
-  margin: 0 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-.hidden {
-  display: none;
-}
-
-.gif-container {
-  position: absolute;
-  bottom: 10px;
-  left: 50px;
-  width: 75px; /* Изменено на фиксированную ширину */
-  height: 75px; /* Изменено на фиксированную высоту */
-  z-index: 3;
-}
-
-.background img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-@media screen and (max-width: 768px) {
-  .background {
-    height: auto; /* Меняем высоту на авто, чтобы фон мог прокручиваться */
-  }
-}
-
-
-
-.invitation-container {
-  font-size: 20px;
-  position: relative;
-  z-index: 2;
-  max-width: 500px;
-  margin: 100px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 10px;
-  text-align: center;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-/* Ваш существующий CSS код */
-
-body {
-  font-family: 'Caveat', cursive;
-  margin: 0;
-  padding: 0;
-  height: 75vh; /* Задает высоту равной высоте окна браузера */
- 
-}
-
-/* Остальной CSS код */
-
-.response-buttons {
-  margin-top: 20px;
-}
-
-button {
-  padding: 10px 20px;
-  margin: 0 10px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 20px;
-  transition: all 0.3s ease;
-}
-
-button:hover {
-  background-color: #45a049;
-}
-
-.hidden {
-  display: none;
-}
-
-.gif-container {
-  position: absolute;
-  bottom: 10px;
-  left: 50px;
-  width: 75px; /* Изменено на фиксированную ширину */
-  height: 75px; /* Изменено на фиксированную высоту */
-  z-index: 3;
-}
+<script src="nimtion.js"></script>
+</body>
+</html>
